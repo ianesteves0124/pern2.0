@@ -1,11 +1,10 @@
 import React from "react";
-import {movieComponent} from "./component/movieComponent";
-
+import FirstComponent from './components/FirstComponent';
 function App() {   //COMPONENTS useState() AND useProps();
   return(
     
     <div className="">
-      
+      <FirstComponent/>
     </div>
   );
 }
