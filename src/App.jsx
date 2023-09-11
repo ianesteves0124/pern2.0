@@ -1,24 +1,60 @@
 import React from "react";
+import {movieComponent} from "./component/movieComponent";
 
-function App() {
-  const topic = "REACT";
-  const age = 39;
-  const like = ["JSX", "REACT", "REDUX"];
-  return (
-    <div id="someId">
-      <h1 id="header-Id">{topic} IS AWESOME!!!</h1>
-      <h2>{age}</h2>
-      <h1>{like}</h1>
-      <h2>{String(true)}</h2>
-      {
-        true ? <h3>TEST</h3> : <h2>UNTEST</h2>
-      }
-      {
-        like.map((likes) => (<li key={likes}>{likes}</li>))
-        
-      }
+function App() {   //COMPONENTS useState() AND useProps();
+  return(
+    
+    <div className="">
+      
     </div>
   );
 }
 
 export default App;
+
+//ARROW FUNCTION
+/*const name = [
+    {
+      name: "Dolly",
+      type: "cat",
+      description: "Dolly is 1 year old cat",
+      skills: ["roll over", "fetch"],
+      image:
+      "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+
+    },
+    {
+      name: "Jolly",
+      type: "cat",
+      description: "Jolly is very jolly",
+      skills: ["play-dead", "meow"],
+      image:
+        "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+    },
+  ];
+  return (
+    <div className="text-center">
+      <h1 className="">CAT LOVERS</h1>
+      <ul className = "flex justify-center items-center">
+        {name.map((pets, index) => (
+          <li className=" border border-solid rounded m-2 p-2" key={index}>
+            <h1>{pets.name}</h1>
+            <p>{pets.description}</p>
+            <img
+              src={pets.image}
+              alt={pets.name}
+              width="200px"
+              height="200px  "
+            />
+            <ul className="flex">
+              {
+                pets.skills.map((skill,index) => (
+                  <li className = " justify-center p-1" key = {skill}>{skill}</li>
+                ))
+              }
+            </ul>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );*/

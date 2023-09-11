@@ -73,5 +73,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 //https://create-react-app.dev/docs/adding-typescript/
 //https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 //https://www.npmjs.com/
+https://www.npmjs.com/package/react-router-dom
 //https://tailwindcss.com/docs/guides/create-react-app
 //https://ant.design/components/overview/
+//https://www.flowbite-react.com/
+//https://www.material-tailwind.com/docs/react/guide/cra
+
+//JAVASCRIPT GUIDES
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
