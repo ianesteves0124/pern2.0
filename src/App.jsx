@@ -1,10 +1,10 @@
 import React from "react";
-import FirstComponent from './components/FirstComponent';
-function App() {   //COMPONENTS useState() AND useProps();
-  return(
-    
-    <div className="">
-      <FirstComponent/>
+import FirstPage from "./pages/FirstPage";
+function App() {
+  //COMPONENTS useState() AND useProps();
+  return (
+    <div className="bg-black">
+      <FirstPage />
     </div>
   );
 }
