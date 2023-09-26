@@ -1,10 +1,12 @@
-import React from "react";
-import FirstPage from "./pages/FirstPage";
+import React from 'react';
+import FirstPage from './pages/FirstPage';
+import SecondPage from './pages/SecondPage';
 function App() {
   //COMPONENTS useState() AND useProps();
   return (
-    <div className="bg-black">
+    <div className=''>
       <FirstPage />
+      <SecondPage />
     </div>
   );
 }
