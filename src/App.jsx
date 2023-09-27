@@ -1,12 +1,14 @@
 import React from 'react';
 import FirstPage from './pages/FirstPage';
 import SecondPage from './pages/SecondPage';
+import ThirdPage from './pages/ThirdPage';
 function App() {
   //COMPONENTS useState() AND useProps();
   return (
     <div className=''>
       <FirstPage />
       <SecondPage />
+      <ThirdPage randomMax={8} />
     </div>
   );
 }
