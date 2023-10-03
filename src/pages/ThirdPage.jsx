@@ -73,6 +73,11 @@ const Greeting = ({ randomMax }) => {
       default:
         setGreeting('Hello');
     }
+    return function cleanUp() { // CLEANUP
+      console.log('Clean up');
+      window.localStorage.removeItem('random');
+      window.localStorage.removeItem('jackpot');
+    };
   }, [randNumber, randomMax]); //runs after the current state changes
 
   return (
