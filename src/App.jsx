@@ -2,15 +2,17 @@ import React from 'react';
 // import FirstPage from './pages/FirstPage';
 // import SecondPage from './pages/SecondPage';
 // import ThirdPage from './pages/ThirdPage';
-import FourthPage from './pages/FourthPage';
+// import FourthPage from './pages/FourthPage';
+// import FifthPage from './pages/FifthPage';
 function App() {
   //COMPONENTS useState() AND useProps();
   return (
     <div className=''>
       {/* <FirstPage /> // PASSING PROPS
       <SecondPage /> // useState
-      <ThirdPage randomMax={8} />  // useEffect */}
-      <FourthPage />
+      <ThirdPage randomMax={8} />  // useEffect 
+      <FourthPage /> //CUSTOM HOOKS
+      <FifthPage /> // useRef*/}
     </div>
   );
 }
