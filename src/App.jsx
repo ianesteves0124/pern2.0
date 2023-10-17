@@ -5,6 +5,7 @@ import React from 'react';
 // import FourthPage from './pages/FourthPage';
 // import FifthPage from './pages/FifthPage';
 // import SixthPage from './pages/SixthPage';
+import SeventhPage from './pages/SeventhPage';
 function App() {
   //COMPONENTS useState() AND useProps();
   return (
@@ -13,8 +14,9 @@ function App() {
       <SecondPage /> // useState
       <ThirdPage randomMax={8} />  // useEffect 
       <FourthPage /> //CUSTOM HOOKS
-      <FifthPage /> // useRef*/}
-      {/* <SixthPage /> //HOC*/}
+      <FifthPage /> // useRef*
+       <SixthPage /> //HOC*/}
+      <SeventhPage />
     </div>
   );
 }
